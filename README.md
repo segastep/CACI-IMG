@@ -18,8 +18,8 @@ We would like to see good practices regarding the REST API, project structure, c
 
 ## Nice To Haves
 
-•	Nice to have would be to containerise your server so that it can deployed easily.
-•	A front-end that will allow users to search for a person and return back their information. 
+- Nice to have would be to containerise your server so that it can deployed easily.
+- A front-end that will allow users to search for a person and return back their information. 
 
 
 ## Go The Extra Mile
