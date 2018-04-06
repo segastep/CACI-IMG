@@ -24,5 +24,5 @@ We would like to see good practices regarding the REST API, project structure, c
 
 ## Go The Extra Mile
 
-Come up with some ideas to visualise the fake profile data on a Vuejs front-end
+Come up with some ideas to visualise the fake profile data on a front-end using a framework of your choice.
 
