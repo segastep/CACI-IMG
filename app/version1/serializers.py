@@ -42,15 +42,27 @@ person = api.model('Person Schema', {
                  "company": fields.String(descriprion="Company", required=True),
                  "ssn": fields.String(description="SSN", required=True),
                  "residence": fields.String(description="Residence", required=True),
-                 "website": fields.List(fields.Url(), required=True, description='Websites associated with user'),
+                 "current_location": fields.List(fields.Float(description="User's current location", required=True), required=True),
                  "blood_group": fields.String(description="User's blood group", required=True),
+                 "website": fields.List(fields.String(), required=True, description='Websites associated with user'),
                  "username": fields.String(description="Username", required=True),
                  "name": fields.String(description="User's names", required=True),
                  "sex": fields.String(description="User's gender", required=True),
                  "address": fields.String(description="Address", required=True),
                  "mail": fields.String(description="Email address", required=True),
-                 "birthdate": fields.Date(description="User's data of birth", required=True),
-                 "location": fields.List(fields.Float(description="User's location", required=True), required=True)
+                 "birthdate": fields.String(description="User's data of birth", required=True),
+
                 })
+
+page = api.model(' A page of results', {
+    'page': fields.Integer(description='This page number'),
+    'pages': fields.Integer(description='Total number of pages for this request'),
+    'count': fields.Integer(description='Number of all results'),
+
+})
+
+page_of_people = api.inherit('Page of blog posts', page, {
+    'items': fields.List(fields.Nested(person))
+})
 
 

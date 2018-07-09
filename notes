@@ -1,22 +1,5 @@
-API Funtionality
---Auth
---Pagination
-
---Documentation and representation via Swagger
---Gunicorn - sever
---Falcon -- to build api
---PostgradeSQL - how do you scale that ? 
---Swagger front end
---
-Handler ? Errors ? Logging ?
-
-Input validation
-SQL injection mitigation
-TDD ?
-
----
+TODO:
+Authentication
+Tests
 Docker
-dependencies
-configurations
-DBs
- 
+Fix longs to write to specific dir

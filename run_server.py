@@ -7,11 +7,12 @@ from flask import Flask, Blueprint
 from database import db
 
 from app.version1.api_object import api
-#from app.version1.endpoints import ns as people_namespace
+from app.version1.endpoints.people import ns as people_namespace
 from app.version1.testendpoint import ns as test_ns
 
 logging.config.fileConfig(settings.LOGGING_CONFIG_FILE)
 log = logging.getLogger(__name__)
+
 
 def init():
 
@@ -23,12 +24,14 @@ def init():
     v1 = Blueprint('api/v1', __name__, url_prefix='/api/v1')
     api.init_app(v1)
     api.add_namespace(test_ns)
-    #api.add_namespace(people_namespace)
+    api.add_namespace(people_namespace)
     app.register_blueprint(v1)
     with app.app_context():
         db.init_app(app)
-        db.drop_all()
-        db.create_all()
+
+        @app.before_first_request
+        def create_tables():
+            db.create_all()
 
     return app
 
