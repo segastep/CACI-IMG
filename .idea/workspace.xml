@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0b200cd-3c77-4548-b6a7-3bec31139df1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/version1/api_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/version1/endpoints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/version1/testendpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/version1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/version1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/version1/api_schema_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/version1/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/version1/api_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/version1/endpoints/people.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/version1/endpoints/people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/version1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/version1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/version1/testendpoint.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,24 +20,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/persona_api$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1531062436090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/persona_api$runner.coverage" NAME="runner Coverage Results" MODIFIED="1531081380060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/persona_api$runner.coverage" NAME="runner Coverage Results" MODIFIED="1531117063443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/persona_api$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1530966770670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/version1" />
     <SUITE FILE_PATH="coverage/persona_api$RestApi.coverage" NAME="RestApi Coverage Results" MODIFIED="1530923527173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/version1/__init__.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
           <file leaf-file-name="api_object.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/version1/api_object.py">
+            <entry file="file://$PROJECT_DIR$/app/api_object.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                   </folding>
@@ -50,49 +40,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="endpoints.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/version1/endpoints.py">
+          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/version1/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                  <caret line="4" selection-start-line="4" selection-end-line="4" />
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
-                  <caret line="28" selection-start-line="28" selection-end-line="28" />
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
-                  <caret line="34" selection-start-line="34" selection-end-line="34" />
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
-                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                <state relative-caret-position="209">
+                  <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
                   <folding>
-                    <element signature="e#0#14#0" expanded="true" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -101,35 +55,35 @@
           <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/settings.py">
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/authentication/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="476">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/database/model.py">
+          <file leaf-file-name="people.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/version1/endpoints/people.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="-136">
+                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/version1/serializers.py">
+          <file leaf-file-name="notes" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/notes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-366">
-                  <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+                <state relative-caret-position="85">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -137,32 +91,25 @@
           <file leaf-file-name="run_server.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/run_server.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="515">
-                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                <state relative-caret-position="165">
+                  <caret line="21" column="90" lean-forward="true" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
                   <folding>
-                    <element signature="e#0#9#0" expanded="true" />
+                    <element signature="e#0#21#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_restplus/api.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="401" column="8" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
-                </state>
-              </provider>
+          <file leaf-file-name="persona.log" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/logs/persona.log">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file leaf-file-name="testendpoint.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/version1/testendpoint.py">
+          <file leaf-file-name="logging.conf" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/logging.conf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#14#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="188">
+                  <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -171,11 +118,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="endpoints.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/version1/endpoints.py">
+          <file leaf-file-name="people.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/version1/endpoints/people.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -194,6 +141,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>\nperson \= api\.model\(\'Person Schema\'\,\n                \{\n                 \&quot;job\&quot;\: fields\.String\(description\=\&quot;Person\'s job\&quot;\, required\=True\)\,\n                 \&quot;company\&quot;\: fields\.String\(descriprion\=\&quot;Company\&quot;\, required\=True\)\,\n                 \&quot;ssn\&quot;\: fields\.String\(description\=\&quot;SSN\&quot;\, required\=True\)\,\n                 \&quot;residence\&quot;\: fields\.String\(description\=\&quot;Residence\&quot;\, required\=True\)\,\n                 \&quot;website\&quot;\: fields\.List\(fields\.Url\(\)\, required\=True\, description\=\'Websites associated with user\'\)\,\n                 \&quot;blood_group\&quot;\: fields\.String\(description\=\&quot;User\'s blood group\&quot;\, required\=True\)\,\n                 \&quot;username\&quot;\: fields\.String\(description\=\&quot;Username\&quot;\, required\=True\)\,\n                 \&quot;name\&quot;\: fields\.String\(description\=\&quot;User\'s names\&quot;\, required\=True\)\,\n                 \&quot;sex\&quot;\: fields\.String\(description\=\&quot;User\'s gender\&quot;\, required\=True\)\,\n                 \&quot;address\&quot;\: fields\.String\(description\=\&quot;Address\&quot;\, required\=True\)\,\n                 \&quot;mail\&quot;\: fields\.String\(description\=\&quot;Email address\&quot;\, required\=True\)\,\n                 \&quot;birthdate\&quot;\: fields\.Date\(description\=\&quot;User\'s data of birth\&quot;\, required\=True\)\,\n                 \&quot;location\&quot;\: fields\.List\(fields\.Float\(description\=\&quot;User\'s location\&quot;\, required\=True\)\, required\=True\)\n                \}\)</find>
+      <find>location</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,19 +152,23 @@
       <list>
         <option value="$PROJECT_DIR$/app/v1/__init__.py" />
         <option value="$PROJECT_DIR$/app/version1/api_schema_model.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/database/__init__.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/runner.py" />
         <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/logging.conf" />
         <option value="$PROJECT_DIR$/app/version1/api_v1.py" />
         <option value="$PROJECT_DIR$/app/version1/api_object.py" />
         <option value="$PROJECT_DIR$/app/version1/__init__.py" />
-        <option value="$PROJECT_DIR$/app/version1/serializers.py" />
         <option value="$PROJECT_DIR$/app/version1/endpoints.py" />
         <option value="$PROJECT_DIR$/app/version1/testendpoint.py" />
+        <option value="$PROJECT_DIR$/database/__init__.py" />
+        <option value="$PROJECT_DIR$/app/version1/endpoints/endpoints.py" />
         <option value="$PROJECT_DIR$/database/model.py" />
+        <option value="$PROJECT_DIR$/app/version1/endpoints/people.py" />
+        <option value="$PROJECT_DIR$/notes" />
+        <option value="$PROJECT_DIR$/logging.conf" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/authentication/__init__.py" />
+        <option value="$PROJECT_DIR$/app/version1/serializers.py" />
         <option value="$PROJECT_DIR$/run_server.py" />
       </list>
     </option>
@@ -230,11 +182,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="671" />
-    <option name="y" value="51" />
-    <option name="width" value="952" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-133" />
+    <option name="y" value="65" />
+    <option name="width" value="1387" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -262,12 +214,14 @@
             <path>
               <item name="persona-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="persona-api" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="version1" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="persona-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="persona-api" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="persona-api" type="b2602c69:ProjectViewProjectNode" />
@@ -282,13 +236,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/tets/rest_api_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/version1/endpoints" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -413,9 +369,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21845175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26617178" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15572916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
@@ -443,51 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/version1/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6205">
@@ -500,7 +411,7 @@
         <state relative-caret-position="204">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_restplus/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_restplus/fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -625,19 +529,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.log" />
     <entry file="file://$PROJECT_DIR$/persona.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -645,37 +537,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/persona.log.3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/persona.log.3" />
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/version1/api_v1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/version1/api_v1.py" />
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/version1/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,97 +560,140 @@
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_restplus/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="6239">
           <caret line="401" column="8" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/version1/serializers.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/sqlalchemy/sql/sqltypes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="83">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/version1/api_object.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2063315071/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="716" column="6" selection-start-line="716" selection-start-column="6" selection-end-line="716" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/version1/endpoints.py">
+    <entry file="file://$PROJECT_DIR$/app/version1/endpoints/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2873">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/version1/testendpoint.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_restplus/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/persona-api-OLnl_i9k/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="311" column="8" selection-start-line="311" selection-start-column="8" selection-end-line="311" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="30">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/persona.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/version1/testendpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/version1/endpoints/people.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/version1/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="165">
+          <caret line="21" column="90" lean-forward="true" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,10 @@
 import logging
 
-from flask import request, jsonify
+from flask import request
 from flask_restplus import Resource, reqparse
 
 from app.version1 import serializers
-from app.version1.api_object import api
+from app.api_object import api
 from database.model import Person
 from database import db
 

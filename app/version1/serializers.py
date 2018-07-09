@@ -1,4 +1,4 @@
-from app.version1.api_object import api
+from app.api_object import api
 from flask_restplus import fields
 
 
@@ -35,7 +35,6 @@ The model below corresponds to the json layout from sample data.
    "birthdate":"1989-07-07"
 }
 """
-test = api.model('Test', {'name': fields.String(description='FFF', required=True)})
 
 person = api.model('Person Schema', {
                  "job": fields.String(description="Person's job", required=True),
